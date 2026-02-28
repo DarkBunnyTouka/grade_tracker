@@ -1,0 +1,243 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fullName": "Арзамасов Семен Дмитриевич",
+      "email": "arzamasov@stud.pnrpu.ru",
+      "passwordHash": "hash1",
+      "graduateBookNumber": "23-001",
+      "group": "САУ-23-1б"
+    },
+    {
+      "id": 2,
+      "fullName": "Иванова Мария Петровна",
+      "email": "ivanova@stud.pnrpu.ru",
+      "passwordHash": "hash2",
+      "graduateBookNumber": "23-002",
+      "group": "САУ-23-1б"
+    },
+    {
+      "id": 3,
+      "fullName": "Смирнов Алексей Николаевич",
+      "email": "smirnov@stud.pnrpu.ru",
+      "passwordHash": "hash3",
+      "graduateBookNumber": "23-003",
+      "group": "САУ-23-1б"
+    },
+    {
+      "id": 4,
+      "fullName": "Козлова Анна Игоревна",
+      "email": "kozlova@stud.pnrpu.ru",
+      "passwordHash": "hash4",
+      "graduateBookNumber": "22-001",
+      "group": "ИВТ-22-1"
+    },
+    {
+      "id": 5,
+      "fullName": "Петров Дмитрий Сергеевич",
+      "email": "petrov@stud.pnrpu.ru",
+      "passwordHash": "hash5",
+      "graduateBookNumber": "22-002",
+      "group": "ИВТ-22-1"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "fullName": "Русских Елизавета Романовна",
+      "email": "russkih@pnrpu.ru",
+      "passwordHash": "thash1",
+      "department": "Кафедра программной инженерии",
+      "position": "Доцент"
+    },
+    {
+      "id": 2,
+      "fullName": "Горбунов Андрей Викторович",
+      "email": "gorbunov@pnrpu.ru",
+      "passwordHash": "thash2",
+      "department": "Кафедра информационных технологий",
+      "position": "Старший преподаватель"
+    }
+  ],
+  "disciplines": [
+    {
+      "id": 1,
+      "name": "Программная инженерия",
+      "semester": 4,
+      "assessmentType": "экзамен"
+    },
+    {
+      "id": 2,
+      "name": "Базы данных",
+      "semester": 4,
+      "assessmentType": "зачёт"
+    },
+    {
+      "id": 3,
+      "name": "Операционные системы",
+      "semester": 3,
+      "assessmentType": "экзамен"
+    },
+    {
+      "id": 4,
+      "name": "Математический анализ",
+      "semester": 2,
+      "assessmentType": "экзамен"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "САУ-23-1б",
+      "specialty": "Автоматизация технологических процессов",
+      "enrollmentYear": 2023,
+      "studentIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ИВТ-22-1",
+      "specialty": "Информатика и вычислительная техника",
+      "enrollmentYear": 2022,
+      "studentIds": [
+        4,
+        5
+      ]
+    }
+  ],
+  "grades": [
+    {
+      "id": 1,
+      "value": 5,
+      "assessmentType": "экзамен",
+      "date": "2024-06-15",
+      "comment": "Отлично",
+      "studentId": 1,
+      "disciplineId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 2,
+      "value": 4,
+      "assessmentType": "зачёт",
+      "date": "2024-06-18",
+      "comment": "",
+      "studentId": 1,
+      "disciplineId": 2,
+      "teacherId": 2
+    },
+    {
+      "id": 3,
+      "value": 5,
+      "assessmentType": "экзамен",
+      "date": "2024-01-20",
+      "comment": "Блестяще",
+      "studentId": 1,
+      "disciplineId": 3,
+      "teacherId": 1
+    },
+    {
+      "id": 4,
+      "value": 4,
+      "assessmentType": "экзамен",
+      "date": "2024-06-15",
+      "comment": "",
+      "studentId": 2,
+      "disciplineId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 5,
+      "value": 3,
+      "assessmentType": "зачёт",
+      "date": "2024-06-18",
+      "comment": "Допущен с замечаниями",
+      "studentId": 2,
+      "disciplineId": 2,
+      "teacherId": 2
+    },
+    {
+      "id": 6,
+      "value": 4,
+      "assessmentType": "экзамен",
+      "date": "2024-01-20",
+      "comment": "",
+      "studentId": 2,
+      "disciplineId": 3,
+      "teacherId": 1
+    },
+    {
+      "id": 7,
+      "value": 3,
+      "assessmentType": "экзамен",
+      "date": "2024-06-15",
+      "comment": "Удовлетворительно",
+      "studentId": 3,
+      "disciplineId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 8,
+      "value": 5,
+      "assessmentType": "зачёт",
+      "date": "2024-06-18",
+      "comment": "",
+      "studentId": 3,
+      "disciplineId": 2,
+      "teacherId": 2
+    },
+    {
+      "id": 9,
+      "value": 5,
+      "assessmentType": "экзамен",
+      "date": "2024-06-15",
+      "comment": "Превосходно",
+      "studentId": 4,
+      "disciplineId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 10,
+      "value": 4,
+      "assessmentType": "экзамен",
+      "date": "2024-01-20",
+      "comment": "",
+      "studentId": 4,
+      "disciplineId": 3,
+      "teacherId": 1
+    },
+    {
+      "id": 11,
+      "value": 4,
+      "assessmentType": "экзамен",
+      "date": "2024-06-15",
+      "comment": "",
+      "studentId": 5,
+      "disciplineId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 12,
+      "value": 3,
+      "assessmentType": "экзамен",
+      "date": "2024-01-22",
+      "comment": "Пересдача",
+      "studentId": 5,
+      "disciplineId": 4,
+      "teacherId": 2
+    },
+    {
+      "id": 13,
+      "value": 5,
+      "assessmentType": "КР",
+      "date": "2026-03-01",
+      "comment": "Молодец",
+      "studentId": 2,
+      "disciplineId": 4,
+      "teacherId": 2
+    }
+  ]
+}
